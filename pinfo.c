@@ -1,6 +1,11 @@
-// Name, etc
-
-// pinfo.c
+/***********
+* Program Name: pinfo.c
+* Author: Gabriel Limberg
+* Date: 29 Oct 2025
+* Version: 1.0
+* Copyright (c) 2025
+*
+***********/
 
 int main(int argc, char* argv[])
 {

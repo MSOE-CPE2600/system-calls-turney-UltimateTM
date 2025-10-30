@@ -1,4 +1,7 @@
 CFLAGS=-c -g -Wall -Werror
+LDFLAGS= -lm
+SOURCES= finfo.c info.c pinfo.c pmod.c
+EXECUTABLE= info
 CC=gcc
 
 all: info pinfo finfo pmod
