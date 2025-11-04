@@ -1,6 +1,7 @@
 /***********
 * Program Name: finfo.c
 * Author: Gabriel Limberg
+* Section : 121
 * Date: 29 Oct 2025
 * gcc -o finfo finfo.c
 * Version: 1.0

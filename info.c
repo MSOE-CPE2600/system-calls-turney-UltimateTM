@@ -1,6 +1,7 @@
 /***********
 * Program Name: info.c
 * Author: Gabriel Limberg
+* Section : 121
 * Date: 29 Oct 2025
 * Version: 1.0
 * To compile: gcc -o info info.c

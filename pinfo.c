@@ -1,6 +1,7 @@
 /***********
 * Program Name: pinfo.c
 * Author: Gabriel Limberg
+* Section : 121
 * Date: 29 Oct 2025
 * Version: 1.0
 * To Compile: gcc -o pinfo pinfo.c
