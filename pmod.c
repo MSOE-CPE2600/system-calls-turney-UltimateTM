@@ -8,7 +8,10 @@
 *
 ***********/
 #define _POSIX_C_SOURCE 199309L
+#define _GNU_SOURCE // need to include to remove implicit declaration warning
+#define _DEFAULT_SOURCE
 #include <stdio.h>
+#include <time.h>
 #include <string.h>
 #include <stdlib.h>
 #include <unistd.h>

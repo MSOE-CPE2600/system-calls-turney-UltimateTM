@@ -1,6 +1,12 @@
 # Prerequisites
 *.d
 
+# Compiled Executables
+info
+pinfo
+pmod
+finfo
+
 # Object files
 *.o
 *.ko

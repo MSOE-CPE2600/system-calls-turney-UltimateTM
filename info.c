@@ -8,6 +8,8 @@
 *
 ***********/
 #define _POSIX_C_SOURCE 199309L
+#define _DEFAULT_SOURCE
+#define _GNU_SOURCE 
 #include <time.h>
 #include <sys/utsname.h>
 #include <sys/sysinfo.h>
@@ -34,7 +36,6 @@ int main(int argc, char* argv[])
     char *os_release = ut.release;
     char *os_version = ut.version;
     char *machine = ut.machine;
-    char host_name[HOST_NAME_MAX + 1];
     //int temp = gethostname(host_name, sizeof(host_name));
     int page_size = 0;
     page_size = getpagesize(); // size of each page
